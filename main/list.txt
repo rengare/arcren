@@ -7,3 +7,6 @@ pamac-nosnap
 nvim
 gruvbox-material-gtk-theme-git
 gruvbox-material-icon-theme-git
+pipewire
+pipewire-pulse
+wireplumber
