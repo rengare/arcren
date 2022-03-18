@@ -10,3 +10,4 @@ gruvbox-material-icon-theme-git
 pipewire
 pipewire-pulse
 wireplumber
+tlp
