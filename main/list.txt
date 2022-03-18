@@ -5,3 +5,5 @@ bluez-utils
 flatpak
 pamac-nosnap
 nvim
+gruvbox-material-gtk-theme-git
+gruvbox-material-icon-theme-git
