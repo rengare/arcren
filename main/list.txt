@@ -11,3 +11,4 @@ pipewire
 pipewire-pulse
 wireplumber
 tlp
+neofetch
