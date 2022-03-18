@@ -1,0 +1,6 @@
+brave-bin
+tilix
+bluez
+bluez-utils
+flatpak
+pamac-nosnap

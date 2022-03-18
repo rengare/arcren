@@ -1,0 +1,5 @@
+gnome-session
+gdm
+gnome-settings-daemon
+gnome-tweaks
+extension-manager
