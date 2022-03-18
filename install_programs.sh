@@ -10,8 +10,7 @@ gui=$1
 install ./main/list.txt
 
 if [ ! -z "$gui" ]; then
-  install $gui 
-  sudo systemctl enable gdm
+  install $gui/list.txt
 fi
 
 sudo ln -s /usr/bin/nvim /usr/bin/vim
