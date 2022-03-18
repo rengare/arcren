@@ -4,7 +4,7 @@ bluez
 bluez-utils
 flatpak
 pamac-nosnap
-nvim
+neovim
 gruvbox-material-gtk-theme-git
 gruvbox-material-icon-theme-git
 pipewire
