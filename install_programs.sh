@@ -13,3 +13,7 @@ if [ ! -z "$gui" ]; then
   install $gui 
 fi
 
+
+
+
+sudo ln -s /usr/bin/nvim /usr/bin/vim

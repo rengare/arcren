@@ -4,3 +4,4 @@ bluez
 bluez-utils
 flatpak
 pamac-nosnap
+nvim
