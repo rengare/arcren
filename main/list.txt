@@ -12,3 +12,5 @@ pipewire-pulse
 wireplumber
 tlp
 neofetch
+rust
+fd
