@@ -1,0 +1,33 @@
+{
+  "audio": "none",
+  "bootloader": "systemd-bootctl",
+  "dry-run": false,
+  "harddrives": [
+    "/dev/sda"
+  ],
+  "hostname": "archren",
+  "kernels": [
+    "linux-zen"
+  ],
+  "keyboard-layout": "pl",
+  "mirror-region": {
+    "Worldwide": {
+      "https://mirror.rackspace.com/archlinux/$repo/os/$arch": true
+    }
+  },
+  "nic": {
+    "NetworkManager": true,
+    "nic": "Use NetworkManager (necessary to configure internet graphically in GNOME and KDE)"
+  },
+  "ntp": true,
+  "packages": [],
+  "profile": {
+    "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
+  },
+  "script": "guided",
+  "swap": false,
+  "sys-encoding": "utf-8",
+  "sys-language": "en_US",
+  "timezone": "Europe/Warsaw",
+  "version": "2.3.2"
+}
