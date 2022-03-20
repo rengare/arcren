@@ -1,6 +1,9 @@
 {
   "audio": "none",
   "bootloader": "systemd-bootctl",
+  "custom-commads": [
+    "cd /home/ren; git clone https://github.com/rebgare/archren.git"
+  ],
   "dry-run": false,
   "harddrives": [
     "/dev/sda"
@@ -26,6 +29,11 @@
   ],
   "profile": "minimal",
   "script": "guided",
+  "superusers": {
+    "ren": {
+      "!password": "pass"
+    }
+  },
   "swap": false,
   "sys-encoding": "utf-8",
   "sys-language": "en_US",
