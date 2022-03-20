@@ -20,10 +20,11 @@
     "nic": "Use NetworkManager (necessary to configure internet graphically in GNOME and KDE)"
   },
   "ntp": true,
-  "packages": [],
-  "profile": {
-    "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
-  },
+  "packages": [
+    "git",
+    "wget"
+  ],
+  "profile": "minimal",
   "script": "guided",
   "swap": false,
   "sys-encoding": "utf-8",
