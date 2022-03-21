@@ -4,3 +4,4 @@ gnome-settings-daemon
 gnome-tweaks
 extension-manager
 nautilus
+gnome-control-center
