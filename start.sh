@@ -9,7 +9,7 @@ sudo echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 sudo echo "[multilib]" >> /etc/pacman.conf
 sudo echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 
-paru -S --noconfirm fish
+paru -Syyu --noconfirm
 
 bash ./install_main.sh
 
