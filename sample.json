@@ -1,9 +1,7 @@
 {
   "audio": "none",
   "bootloader": "systemd-bootctl",
-  "custom-commads": [
-    "cd / && git clone https://github.com/rengare/archren.git"
-  ],
+  "custom-commads": [],
   "dry-run": false,
   "harddrives": [
     "/dev/sda"
