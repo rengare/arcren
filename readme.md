@@ -10,5 +10,6 @@ This is my archlinux installation method based on archinstall
 
 
 ## TODO
+- finish up extra folder and install script
 - [] write readme
 - [] make a video how to install
