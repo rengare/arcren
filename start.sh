@@ -13,5 +13,6 @@ gui=$1
 extra=$2
 bash ./install_de.sh $gui
 bash ./install_extra.sh $extra
+bash ./theme.sh
 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish

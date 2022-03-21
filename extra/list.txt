@@ -1,1 +1,3 @@
 ytfzf
+lutris
+steam
