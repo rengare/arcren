@@ -1,11 +1,4 @@
-sudo su
-echo "[community]" >> /etc/pacman.conf
-echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
-
-echo "[multilib]" >> /etc/pacman.conf
-echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
-
-exit
+sudo cp pacman.conf /etc/pacman.conf
 
 git clone https://aur.archlinux.org/paru-bin.git
 cd paru-bin
