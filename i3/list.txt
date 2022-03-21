@@ -1,5 +1,5 @@
 picom-ibhagwan-git
-autotiling-git
+autotiling
 dunst
 gammastep
 i3-gaps
