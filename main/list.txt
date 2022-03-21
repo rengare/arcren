@@ -8,9 +8,9 @@ pamac-nosnap
 neovim
 gruvbox-material-gtk-theme-git
 gruvbox-material-icon-theme-git
+wireplumber
 pipewire
 pipewire-pulse
-wireplumber
 tlp
 neofetch
 rust
