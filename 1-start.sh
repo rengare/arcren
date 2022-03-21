@@ -1,5 +1,3 @@
-sudo cp pacman.conf /etc/pacman.conf
-
 git clone https://aur.archlinux.org/paru-bin.git
 cd paru-bin
 makepkg -si
