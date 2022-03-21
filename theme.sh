@@ -1,3 +1,5 @@
+gui=$1
+
 mkdir ~/.themes
 mkdir ~/.icons
 
@@ -12,3 +14,7 @@ cp -rf ./config/* ~/.config/
 
 mkdir Pictures
 mv ./theme/background.png ~/Pictures/
+
+if [ -d "$gui" ]; then
+    bash $gui/theme.sh
+fi
