@@ -4,7 +4,7 @@ This is my archlinux installation method based on archinstall
 
 
 ## Installation
-- `curl -L bit.ly/3ukVRLs`
+- `curl -L https://bit.ly/3ukVRLs`
 - `archinstall --config sample.json`
 
 ## boot phase
