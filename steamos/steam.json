@@ -1,0 +1,40 @@
+{
+  "audio": "none",
+  "bootloader": "systemd-bootctl",
+  "custom-commads": [],
+  "dry-run": false,
+  "harddrives": [
+    "/dev/sda"
+  ],
+  "hostname": "archren",
+  "kernels": [
+    "linux-zen"
+  ],
+  "keyboard-layout": "pl",
+  "mirror-region": {
+    "Worldwide": {
+      "https://steamdeck-packages.steamos.cloud/archlinux-mirror/$repo/os/$arch": true
+    }
+  },
+  "nic": {
+    "NetworkManager": true,
+    "nic": "Use NetworkManager (necessary to configure internet graphically in GNOME and KDE)"
+  },
+  "ntp": true,
+  "packages": [
+    "git",
+    "wget"
+  ],
+  "profile": "minimal",
+  "script": "guided",
+  "superusers": {
+    "ren": {
+      "!password": "pass"
+    }
+  },
+  "swap": false,
+  "sys-encoding": "utf-8",
+  "sys-language": "en_US",
+  "timezone": "Europe/Warsaw",
+  "version": "2.3.2"
+}
