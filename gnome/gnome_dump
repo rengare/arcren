@@ -1,0 +1,104 @@
+[com/gexperts/Tilix]
+terminal-title-style='none'
+window-style='disable-csd-hide-toolbar'
+
+[com/gexperts/Tilix/keybindings]
+session-add-right='<Primary><Alt>e'
+terminal-close='<Primary><Alt>w'
+terminal-copy='<Primary>c'
+terminal-paste='<Primary>v'
+
+[com/gexperts/Tilix/profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
+background-color='#272822'
+background-transparency-percent=10
+badge-color-set=false
+bold-color-set=false
+cursor-colors-set=false
+custom-command='fish'
+font='JetBrainsMono Nerd Font Mono 12'
+foreground-color='#F8F8F2'
+highlight-colors-set=false
+palette=['#272822', '#F92672', '#A6E22E', '#F4BF75', '#66D9EF', '#AE81FF', '#A1EFE4', '#F8F8F2', '#75715E', '#F92672', '#A6E22E', '#F4BF75', '#66D9EF', '#AE81FF', '#A1EFE4', '#F9F8F5']
+use-custom-command=true
+use-system-font=false
+use-theme-colors=false
+visible-name='Default'
+
+[com/mattjakeman/ExtensionManager]
+style-variant='force-dark'
+
+[org/gnome/control-center]
+last-panel='display'
+
+[org/gnome/desktop/app-folders]
+folder-children=['6dd31efd-93df-40a6-83cd-a82bda215ea3']
+
+[org/gnome/desktop/app-folders/folders/6dd31efd-93df-40a6-83cd-a82bda215ea3]
+apps=['bssh.desktop', 'nm-connection-editor.desktop', 'bvnc.desktop', 'avahi-discover.desktop', 'cmake-gui.desktop', 'assistant.desktop', 'designer.desktop', 'linguist.desktop', 'qdbusviewer.desktop', 'qv4l2.desktop', 'qvidcap.desktop']
+name='Unnamed Folder'
+
+[org/gnome/desktop/background]
+picture-options='zoom'
+picture-uri='/home/ren/.config/background'
+
+[org/gnome/desktop/calendar]
+show-weekdate=true
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+clock-show-weekday=true
+font-antialiasing='grayscale'
+font-hinting='slight'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Gruvbox-Material-Dark-HIDPI'
+icon-theme='Gruvbox-Material-Dark'
+show-battery-percentage=true
+
+[org/gnome/desktop/privacy]
+disable-microphone=false
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='list-view'
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+initial-size=(987, 550)
+maximized=false
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-schedule-automatic=false
+night-light-schedule-from=6.0
+night-light-temperature=uint32 3200
+
+[org/gnome/shell]
+app-picker-layout=[{'org.manjaro.pamac.manager.desktop': <{'position': <0>}>, 'org.gnome.DiskUtility.desktop': <{'position': <1>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <2>}>, 'org.gnome.Extensions.desktop': <{'position': <3>}>, 'fish.desktop': <{'position': <4>}>, 'gnome-control-center.desktop': <{'position': <5>}>, 'lstopo.desktop': <{'position': <6>}>, 'htop.desktop': <{'position': <7>}>, 'net.lutris.Lutris.desktop': <{'position': <8>}>, 'mpv.desktop': <{'position': <9>}>, 'nvim.desktop': <{'position': <10>}>, 'steam.desktop': <{'position': <11>}>, '6dd31efd-93df-40a6-83cd-a82bda215ea3': <{'position': <12>}>, 'org.gnome.tweaks.desktop': <{'position': <13>}>}]
+disable-user-extensions=false
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'sound-output-device-chooser@kgshank.net', 'espresso@coadmunkee.github.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'dash-to-dock@micxgx.gmail.com']
+favorite-apps=['org.gnome.Nautilus.desktop', 'com.gexperts.Tilix.desktop', 'brave-browser.desktop']
+welcome-dialog-last-shown-version='41.4'
+
+[org/gnome/shell/extensions/dash-to-dock]
+background-opacity=0.80000000000000004
+dash-max-icon-size=48
+dock-position='BOTTOM'
+force-straight-corner=true
+height-fraction=0.90000000000000002
+
+[org/gnome/shell/extensions/espresso]
+has-battery=true
+restore-state=true
+user-enabled=true
+
+[org/gnome/shell/extensions/user-theme]
+name='Gruvbox-Material-Dark-HIDPI'
+
+[org/gnome/tweaks]
+show-extensions-notice=false

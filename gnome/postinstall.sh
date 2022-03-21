@@ -1,1 +1,2 @@
-sudo systemctl enable --now gdm
+sudo systemctl enable gdm
+reboot
