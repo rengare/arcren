@@ -15,6 +15,6 @@ tlp
 neofetch
 rust
 fd
-flameshot-git
+flameshot
 htop
 nerd-fonts-jetbrains-mono
