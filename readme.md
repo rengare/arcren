@@ -27,4 +27,5 @@ This is my archlinux installation method based on archinstall
 
 - [x] finish up extra folder and install script
 - [x] write readme
+- [ ] cleanup root directory 
 - [ ] make a video how to install
