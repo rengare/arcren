@@ -10,6 +10,9 @@ This is my archlinux installation method based on archinstall
 
 ## Installation
 
+- [YT instruction in Polish](https://www.youtube.com/watch?v=nCbxaxY3NAc)
+- [YT instruction in English - in progress]()
+
 - if you have a wifi, run `iwctl` then `station wlan0 connect {name of wifi}`
 - `curl -L https://bit.ly/3ukVRLs > sample.json`
 - `archinstall --config sample.json`
@@ -42,3 +45,4 @@ In order to cleanup run `clean` from terminal
 - [x] write readme
 - [ ] cleanup root directory 
 - [ ] make a video how to install
+
