@@ -3,9 +3,7 @@
   "bootloader": "systemd-bootctl",
   "custom-commads": [],
   "dry-run": false,
-  "harddrives": [
-    "/dev/sda"
-  ],
+  "harddrives": [],
   "hostname": "arcren",
   "kernels": [
     "linux-zen"
