@@ -2,6 +2,10 @@
 
 This is my archlinux installation method based on archinstall
 
+## available DE
+- gnome
+- i3
+
 
 ## Installation
 - if you have a wifi, run `iwctl` then `station wlan0 connect {name of wifi}`
@@ -18,7 +22,7 @@ This is my archlinux installation method based on archinstall
 - `cd arcren`
 - `bash ./0-prepare.sh`
 - `bash ./1-start.sh gnome extra` for gnome or (extra installs steam, lutris etc, read the extra/list.txt or skip extra) (for i3 type `i3` instead of `gnome`)
-- `bash ./2-postinstall.sh`
+- `bash ./2-postinstall.sh gnome(optional, type DE of your choice)`
 - optional `bash ./3-flatpak.sh`
 
 
