@@ -25,6 +25,6 @@ This is my archlinux installation method based on archinstall
 
 ## TODO
 
-- finish up extra folder and install script
-- [ x ] write readme
-- [  ] make a video how to install
+- [x] finish up extra folder and install script
+- [x] write readme
+- [ ] make a video how to install
