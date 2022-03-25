@@ -17,8 +17,7 @@ This is my archlinux installation method based on archinstall
 - run `git clone https://github.com/rengare/arcren`
 - `cd arcren`
 - `bash ./0-prepare.sh`
-- `bash ./1-start.sh gnome extra` for gnome or (extra installs steam, lutris etc, read the extra/list.txt or skip extra)
-- `bash ./1-start.sh i3 extra` for i3 (more desktop environment in progress) 
+- `bash ./1-start.sh gnome extra` for gnome or (extra installs steam, lutris etc, read the extra/list.txt or skip extra) (for i3 type `i3` instead of `gnome`)
 - `bash ./2-postinstall.sh`
 - optional `bash ./3-flatpak.sh`
 
