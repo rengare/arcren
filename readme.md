@@ -14,7 +14,7 @@ This is my archlinux installation method based on archinstall
 ## boot phase
 - login to the user
 - if you have wifi run `sudo nmtui` and connect to the wifi
-- run `git clone https://github.com/rengare/arcren`
+- run `git clone https://github.com/rengare/arcren.git`
 - `cd arcren`
 - `bash ./0-prepare.sh`
 - `bash ./1-start.sh gnome extra` for gnome or (extra installs steam, lutris etc, read the extra/list.txt or skip extra) (for i3 type `i3` instead of `gnome`)
