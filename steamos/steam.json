@@ -6,7 +6,7 @@
   "harddrives": [
     "/dev/sda"
   ],
-  "hostname": "archren",
+  "hostname": "arcren",
   "kernels": [
     "linux-zen"
   ],
