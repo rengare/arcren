@@ -5,12 +5,12 @@ cd ..
 
 paru -Syyu --noconfirm
 
-bash ./install_main.sh
+bash ./scripts/install_main.sh
 
 gui=$1
 extra=$2
-bash ./install_de.sh $gui
-bash ./install_extra.sh $extra
-bash ./theme.sh $gui
+bash .scripts/install_de.sh $gui
+bash .scripts/install_extra.sh $extra
+bash .scripts/theme.sh $gui
 
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
