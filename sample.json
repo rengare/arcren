@@ -24,7 +24,8 @@
   "ntp": true,
   "packages": [
     "git",
-    "wget"
+    "wget",
+    "vim"
   ],
   "profile": "minimal",
   "script": "guided",
