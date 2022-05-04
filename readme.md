@@ -22,6 +22,7 @@ This is my archlinux installation method based on archinstall
 ## boot phase
 
 - login to the user
+- `sudo systemctl enable --now NetworkManager`
 - if you have wifi run `sudo nmtui` and connect to the wifi
 - run `git clone https://github.com/rengare/arcren.git`
 - `cd arcren`
