@@ -9,6 +9,10 @@
   ],
   "keyboard-layout": "pl",
   "mirror-region": {
+    "Poland" : {
+      "http://ftp.icm.edu.pl/pub/Linux/dist/archlinux/$repo/os/$arch": true,
+      "http://mirror.onet.pl/pub/mirrors/archlinux/$repo/os/$arch": true
+    },
     "Worldwide": {
       "https://mirror.rackspace.com/archlinux/$repo/os/$arch": true
     }
