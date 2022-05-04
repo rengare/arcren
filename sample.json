@@ -25,7 +25,8 @@
   "packages": [
     "git",
     "wget",
-    "vim"
+    "vim",
+    "networkmanager"
   ],
   "profile": "minimal",
   "script": "guided",
