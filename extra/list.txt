@@ -1,3 +1,2 @@
 ytfzf
-lutris
-steam
+mpv

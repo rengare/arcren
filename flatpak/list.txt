@@ -1,1 +1,9 @@
-warpinator
+obsidian
+flameshot
+evince
+flatseal
+onlyoffice
+seahorse
+telegram
+fileroller
+lutris
