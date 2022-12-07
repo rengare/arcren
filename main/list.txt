@@ -5,9 +5,7 @@ tilix
 bluez
 bluez-utils
 flatpak
-pamac-nosnap
 neovim
 rust
 fd
 htop
-nerd-fonts-jetbrains-mono
