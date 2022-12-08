@@ -8,6 +8,6 @@ cp -rf /usr/share/fonts/TTF/* ~/.local/share/fonts/
 fc-cache ~/.local/share/fonts
 sudo flatpak override --filesystem=xdg-config/gtk-4.0
 flatpak override --user --filesystem=xdg-config/gtk-4.0
-sudo flatpak override --env=GTK_THEME=Catppuccin-Mocha-Lavender
+sudo flatpak override --env=GTK_THEME=Catppuccin-Mocha
 sudo flatpak override  --filesystem=$HOME/.local/share/themes
 

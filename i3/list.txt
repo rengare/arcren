@@ -18,3 +18,7 @@ xss-lock
 arandr
 dmenu
 feh
+exa
+lxappearance-gtk3
+python-pip
+blueberry
