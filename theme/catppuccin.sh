@@ -1,4 +1,4 @@
-paru -S nerd-fonts-jetbrains-mono yaru-icon-theme
+paru -S nerd-fonts-jetbrains-mono
 
 mkdir ~/.local/share/themes
 mkdir ~/.local/share/fonts
