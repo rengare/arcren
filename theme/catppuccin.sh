@@ -1,9 +1,9 @@
-paru -S catppuccin-gtk-theme-mocha nerd-fonts-jetbrains-mono yaru-icon-theme
+paru -S nerd-fonts-jetbrains-mono yaru-icon-theme
+
 mkdir ~/.local/share/themes
 mkdir ~/.local/share/fonts
 
-cp -rf /usr/share/themes/* ~/.local/share/themes/
-cp -rf /usr/share/fonts/TTF/* ~/.local/share/fonts/
+cp -rf ./catppuccin/* ~/.local/share/themes/
 
 fc-cache ~/.local/share/fonts
 
