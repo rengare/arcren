@@ -2,8 +2,10 @@ paru -S nerd-fonts-jetbrains-mono yaru-icon-theme
 
 mkdir ~/.local/share/themes
 mkdir ~/.local/share/fonts
+mkdir ~/.local/share/icons
 
 cp -rf ./catppuccin/* ~/.local/share/themes/
+cp -rf ./yaru/* ~/.local/share/icons/
 
 fc-cache ~/.local/share/fonts
 
