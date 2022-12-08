@@ -1,5 +1,4 @@
 sudo systemctl enable --now bluetooth
-sudo systemctl enable --now tlp
 
 gui=$1
 
