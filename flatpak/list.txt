@@ -7,3 +7,4 @@ seahorse
 telegram
 fileroller
 lutris
+catppuccin-mocha-lavender
