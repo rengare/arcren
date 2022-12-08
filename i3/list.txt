@@ -22,3 +22,4 @@ exa
 lxappearance-gtk3
 python-pip
 blueberry
+network-manager-applet
