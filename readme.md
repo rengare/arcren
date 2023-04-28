@@ -17,6 +17,7 @@ This is my archlinux installation method based on archinstall
 - `rm -rf /etc/pacman.d/gnupg`
 - `pacman-key --init`
 - `pacman-key --populate archlinux`
+- `pacman -Sy archlinux-keyring`
 - `curl -L https://bit.ly/3ukVRLs > sample.json`
 - `archinstall --config sample.json`
 - answer the questions
