@@ -14,9 +14,10 @@ This is my archlinux installation method based on archinstall
 - [YT instruction in English - in progress]()
 
 - if you have a wifi, run `iwctl` then `station wlan0 connect {name of wifi}`
-- `sudo pacman -Sy archlinux-keyring`
+- `rm -rf /etc/pacman.d/gnupg`
+- `pacman-key --init`
+- `pacman-key --populate archlinux`
 - `curl -L https://bit.ly/3ukVRLs > sample.json`
-- `pacman -Sy archlinux-keyring`
 - `archinstall --config sample.json`
 - answer the questions
 - after successful installation run `reboot`
