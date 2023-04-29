@@ -45,7 +45,7 @@ In order to cleanup run `clean` from terminal
 
 
 ## TODO
-
+- paru -S --needed - < pkglist.txt
 - [x] finish up extra folder and install script
 - [x] write readme
 - [ ] cleanup root directory 
