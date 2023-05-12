@@ -72,7 +72,6 @@ thunar
 tilix
 ttf-liberation
 vdpauinfo
-vim
 vulkan-intel
 vulkan-radeon
 wezterm
