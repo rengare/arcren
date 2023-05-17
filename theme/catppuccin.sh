@@ -8,9 +8,8 @@ cp -rf ./jetbrains/* ~/.local/share/fonts/
 
 fc-cache ~/.local/share/fonts
 
-flatpak override --filesystem=$HOME/.local/share/themes --user
-flatpak override --env=GTK_THEME=Catppuccin-Mocha-Lavender --user
+flatpak --user override --filesystem=xdg-data/themes
+flatpak override --env=GTK_THEME=Yaru-dark --user
 
-sudo flatpak override --filesystem=$HOME/.local/share/themes
-sudo flatpak override --env=GTK_THEME=Catppuccin-Mocha-Lavender
-
+sudo flatpak override --filesystem=xdg-data/themes
+sudo flatpak override --env=GTK_THEME=Yaru-dark
