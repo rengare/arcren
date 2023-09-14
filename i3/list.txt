@@ -22,4 +22,9 @@ exa
 lxappearance-gtk3
 python-pip
 blueberry
+blueman
 network-manager-applet
+gvfs
+ntfs-3g
+pavucontrol
+
