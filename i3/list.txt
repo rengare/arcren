@@ -27,4 +27,10 @@ network-manager-applet
 gvfs
 ntfs-3g
 pavucontrol
-
+wqy-zenhei
+wqy-microhei
+ttf-dejavu
+adobe-source-han-sans-cn-fonts
+ttf-hanazono
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
