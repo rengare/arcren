@@ -1,4 +1,4 @@
-picom-ibhagwan-git
+picom
 autotiling
 dunst
 gammastep
@@ -9,6 +9,8 @@ lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 polkit-gnome
+gnome-keyring
+gdm
 ripgrep
 rofi
 thunar
