@@ -1,4 +1,5 @@
 i3
+light
 lightdm
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
