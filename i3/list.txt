@@ -1,4 +1,5 @@
 i3
+rofi
 light
 lightdm
 lightdm-gtk-greeter
