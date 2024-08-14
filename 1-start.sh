@@ -12,4 +12,5 @@ extra=$2
 bash ./scripts/install_de.sh $gui
 bash ./scripts/install_extra.sh $extra
 
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
