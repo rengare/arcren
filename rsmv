@@ -1,0 +1,6 @@
+!/bin/bash
+
+# Safety check
+[ "$#" -eq 0 ] && "No input files" && exit 1
+
+rsync -aP --remove-source-files "$@" && rm -rf "${@:1:$#-1}"
