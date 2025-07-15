@@ -2,7 +2,7 @@
 # sudo pacman -S --noconfirm kvantum-qt5
 paru -S --noconfirm --needed \
   hyprland hyprshot hyprpicker hyprlock hypridle hyprpolkitagent hyprland-qtutils \
-  wofi waybar mako swaybg \
+  wofi waybar mako swaybg nwg-display nwg-look \
   xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
 
 # Prefer dark mode everything
